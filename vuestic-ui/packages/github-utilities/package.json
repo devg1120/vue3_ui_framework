@@ -1,0 +1,14 @@
+{
+  "name": "github-utilities",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "sync-labels": "tsx scripts/sync-labels.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.0.0",
+    "typescript": "^5"
+  }
+}

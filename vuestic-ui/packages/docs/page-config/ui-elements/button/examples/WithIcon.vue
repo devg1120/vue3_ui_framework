@@ -1,0 +1,25 @@
+<template>
+  <div class="flex flex-col sm:flex-row items-start gap-2">
+    <VaButton
+      icon="clear"
+      color="danger"
+    >
+      Delete
+    </VaButton>
+    <VaButton
+      icon-right="arrow_forward"
+      icon-color="#ffffff50"
+    >
+      Continue
+    </VaButton>
+    <VaButton
+      icon="add"
+      color="warning"
+      icon-color="#812E9E"
+    />
+    <VaButton
+      icon="star"
+      icon-right="unfold_more"
+    />
+  </div>
+</template>

@@ -1,0 +1,12 @@
+<template>
+  <VaIcon
+    class="mr-2"
+    name="home"
+    color="primary"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+    color="#9BEC15"
+  />
+</template>

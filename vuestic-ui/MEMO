@@ -1,0 +1,7 @@
+
+package.json
+   "serve:docs": "yarn workspace docs serve --host",
+                                            ^^^^^^^     append
+
+
+npm run serve:docs

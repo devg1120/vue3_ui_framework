@@ -1,0 +1,3 @@
+<template>
+  <VaProgressCircle indeterminate />
+</template>

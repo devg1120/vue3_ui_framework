@@ -1,0 +1,3 @@
+<template>
+  <VaAvatar loading />
+</template>

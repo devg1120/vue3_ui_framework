@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "paths": {
+      "vuestic-ui": [
+        "../../ui/src/main.ts"
+      ]
+    },
+  }
+}

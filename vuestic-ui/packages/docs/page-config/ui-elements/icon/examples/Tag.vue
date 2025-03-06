@@ -1,0 +1,12 @@
+<template>
+  <VaIcon
+    class="mr-2"
+    tag="span"
+    name="home"
+  />
+  <VaIcon
+    class="mr-2"
+    tag="div"
+    name="home"
+  />
+</template>

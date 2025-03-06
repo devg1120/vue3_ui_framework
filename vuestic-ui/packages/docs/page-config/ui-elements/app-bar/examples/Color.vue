@@ -1,0 +1,74 @@
+<template>
+  <div class="relative">
+    <VaAppBar color="danger">
+      <VaButton
+        icon="home"
+        color="#fff"
+        preset="plain"
+      />
+      <VaButton
+        icon="info"
+        color="#fff"
+        preset="plain"
+      />
+      <VaButton
+        icon="battery"
+        color="#fff"
+        preset="plain"
+      />
+      <VaSpacer />
+      <VaButton
+        color="#fff"
+        preset="plain"
+      >
+        Login
+      </VaButton>
+      <VaButtonDropdown
+        preset="plain"
+        color="secondary"
+        icon-color="#fff"
+      >
+        Content
+      </VaButtonDropdown>
+    </VaAppBar>
+  </div>
+
+  <div
+    class="mt-2 relative"
+  >
+    <VaAppBar
+      color="info"
+      gradient
+    >
+      <VaButton
+        icon="home"
+        color="#fff"
+        preset="plain"
+      />
+      <VaButton
+        icon="info"
+        color="#fff"
+        preset="plain"
+      />
+      <VaButton
+        icon="battery"
+        color="#fff"
+        preset="plain"
+      />
+      <VaSpacer />
+      <VaButton
+        color="#fff"
+        preset="plain"
+      >
+        Login
+      </VaButton>
+      <VaButtonDropdown
+        preset="plain"
+        color="secondary"
+        icon-color="#fff"
+      >
+        Content
+      </VaButtonDropdown>
+    </VaAppBar>
+  </div>
+</template>

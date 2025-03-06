@@ -1,0 +1,26 @@
+<template>
+  <VaIcon
+    class="mr-2"
+    name="home"
+    size="small"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+    size="large"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+    :size="44"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+    size="4rem"
+  />
+</template>

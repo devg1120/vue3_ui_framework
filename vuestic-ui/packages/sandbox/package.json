@@ -1,0 +1,53 @@
+{
+  "name": "sandbox",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf ./dist && yarn build:vite && yarn build:nuxt",
+    "build:vite": "vue-tsc --noEmit && vite build --config ./configs/vite/vite.base.ts",
+    "build:analysis": "node ./scripts/stud-nuxt.mjs && tsx ./scripts/bundle-analysis.ts",
+    "build:nuxt": "nuxt build",
+    "build:web-components": "vue-tsc --noEmit && vite build --config ./web-components/vite.config.ts",
+    "dev:vite": "vite --config ./configs/vite/vite.base.ts",
+    "dev:web-components": "vite --config ./web-components/vite.config.ts",
+    "dev:nuxt": "nuxt dev",
+    "serve:vite": "vite preview",
+    "serve:web-components": "vite preview --config ./web-components/vite.config.ts",
+    "serve:nuxt": "nuxt preview ./dist/nuxt",
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "test:test-utils": "vitest run -r ./src -c ./vitest.config.ts",
+    "build:vuestic": "yarn --cwd ../ui build",
+    "build:vuestic-nuxt": "yarn --cwd ../nuxt build",
+    "ci": "yarn build:vuestic && yarn build:vuestic-nuxt && yarn build && yarn test:ci",
+    "dependenciesInstalled": "node ./scripts/stud-nuxt.mjs"
+  },
+  "dependencies": {
+    "rollup-plugin-visualizer": "^5.5.4",
+    "vue": "*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/test-utils": "^2.4.1",
+    "lodash": "^4.17.21",
+    "nuxt": "^3.8.1",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "sass": "^1.57.1",
+    "serve": "^14.2.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^5",
+    "vite": "^4.2.1",
+    "vitest": "*",
+    "vue-bundle-renderer": "0.4.1",
+    "vue-tsc": "^2.0.7",
+    "webpack": "^5.4.1",
+    "webpack-cli": "^4.9.2",
+    "when-dependencies-installed": "^1.0.1"
+  },
+  "workspaces": {
+    "nohoist": [
+      "vite"
+    ]
+  }
+}

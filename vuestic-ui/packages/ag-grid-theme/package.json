@@ -1,0 +1,43 @@
+{
+  "name": "@vuestic/ag-grid-theme",
+  "version": "1.2.0",
+  "description": "Custom theme with Vuestic UI styles for AG Grid Vue 3.",
+  "homepage": "https://vuestic.dev",
+  "repository": "https://github.com/epicmaxco/vuestic-ui",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsx ./build.ts",
+    "prepack": "npm run build",
+    "play": "cd playground && npm run dev"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.2.2",
+    "@ag-grid-community/core": "^32.2.2",
+    "@ag-grid-community/styles": "^32.2.2",
+    "@ag-grid-community/vue3": "^32.2.2"
+  },
+  "peerDependencies": {
+    "vuestic-ui": "^1.10.0"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "rollup": "^3.15.0",
+    "rollup-plugin-scss": "^4.0.0"
+  },
+  "keywords": [
+    "vuestic",
+    "ag grid",
+    "grid",
+    "theme",
+    "vue3",
+    "vue"
+  ],
+  "main": "dist/ag-theme-vuestic.css",
+  "exports": {
+    ".": "./dist/ag-theme-vuestic.css",
+    "./scss": "./src/styles/index.scss",
+    "./clean": "./dist/ag-theme-vuestic-clean.css",
+    "./clean/scss": "./src/styles/clean.scss"
+  }
+}

@@ -1,0 +1,3 @@
+<template>
+  <VaProgressBar indeterminate />
+</template>

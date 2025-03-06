@@ -1,0 +1,12 @@
+<template>
+  <VaIcon
+    class="mr-2"
+    name="loop"
+    spin="counter-clockwise"
+  />
+  <VaIcon
+    class="mr-2"
+    name="home"
+    spin
+  />
+</template>

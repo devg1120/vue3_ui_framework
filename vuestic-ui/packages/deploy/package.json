@@ -1,0 +1,16 @@
+{
+  "name": "deploy",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "release": "tsx release-script/release-script.ts"
+  },
+  "devDependencies": {
+    "inquirer": "^9.0.0",
+    "typescript": "^5",
+    "chalk": "^5.2.0"
+  },
+  "exports": {
+    "./execute": "./execute/index.ts"
+  }
+}

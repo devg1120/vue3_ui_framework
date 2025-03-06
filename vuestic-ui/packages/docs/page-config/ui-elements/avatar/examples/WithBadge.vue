@@ -1,0 +1,11 @@
+<template>
+  <VaBadge
+    text="15"
+    color="danger"
+  >
+    <VaAvatar
+      square
+      src="https://i.pinimg.com/280x280_RS/08/e9/ba/08e9ba9cbd24db8de0c250570af460a4.jpg"
+    />
+  </VaBadge>
+</template>
