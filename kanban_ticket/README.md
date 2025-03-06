@@ -12,7 +12,7 @@ vue-task-kanban.png
 
 ```
 
-![Kanban-App-Clone](./_images/Kanban-App-Clone.png)
+![Kanban-App-Clone](./_images/Kanban-App-Clone.png "Kanban-App-Clone")
 ![kanban-board](./_images/kanban-board.png)
 ![kanban-board-vue-express-rest-api](./_images/kanban-board-vue-express-rest-api.png)
 ![kanban](./_images/kanban.png)
