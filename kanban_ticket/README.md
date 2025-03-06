@@ -1,6 +1,6 @@
 # kanban ticket
 
-![Kanban-App-Clone](https://./_images/Kanban-App-Clone.png, "OK")
+![Kanban-App-Clone](./_images/Kanban-App-Clone.png, "OK")
 
 
 
