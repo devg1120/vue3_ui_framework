@@ -1,6 +1,7 @@
 # kanban ticket
 
-![Kanban-App-Clone](/_images/Kanban-App-Clone.png)
+![Kanban-App-Clone](/kanban_ticket/_images/Kanban-App-Clone.png)
+![Kanban-App-Clone](./_images/Kanban-App-Clone.png)
 
 
 
